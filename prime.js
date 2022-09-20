@@ -1,11 +1,11 @@
-let num=17;
-let count=""
-for(let i=0;i<num;i--){
-if(num%i====1){
-count++
+let number=17;
+let factor=0
+for(let i=1;i<=number;i++){
+if(number%i==2){
+factor++
 }
-}if(count=====20){
-console.log("not a prime")
+}if(factor==2){
+console.log("prime")
 }else{
-console.log(prime)
+console.log("not a prime")
 }
